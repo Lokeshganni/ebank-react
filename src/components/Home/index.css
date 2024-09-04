@@ -1,0 +1,49 @@
+.home-main-container {
+  background-color: #152850;
+  min-height: 100vh;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 50px;
+}
+
+.nav-container img {
+  width: 100px;
+}
+
+.logout-btn-container button {
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  cursor: pointer;
+  padding: 8px 24px;
+}
+
+.logout-btn-container button:hover {
+  transform: scale(1.01);
+}
+
+.logout-btn-container button:active {
+  transform: scale(0.98);
+}
+
+.home-content-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content-container h1 {
+  color: white;
+  font-size: 42px;
+}
+
+.home-content-container img {
+  width: 40%;
+}
